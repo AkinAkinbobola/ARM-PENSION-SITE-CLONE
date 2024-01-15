@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-cream">
         <h1>Tomorrow is looking good.</h1>
         <p>Retirement is supposed to be enjoyable and stress-free, so we created our planning experience to be that way too.
         </p>
