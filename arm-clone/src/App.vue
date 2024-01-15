@@ -1,6 +1,7 @@
 <script setup>
 import Header from './components/Header.vue';
 import Slider from './components/Slider.vue';
+import CardSection from './components/CardSection.vue';
 
 </script>
 
@@ -8,5 +9,6 @@ import Slider from './components/Slider.vue';
   <div class="none">
     <Header />
     <Slider />
+    <CardSection />
   </div>
 </template>
