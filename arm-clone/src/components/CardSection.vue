@@ -41,33 +41,33 @@ import image from '../assets/images/info.jpg';
             <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
                 <div class="absolute inset-0 bg-black opacity-50"></div>
                 <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
-                    <div class="">
-                        <h2 class="text-lg font-bold mb-4">Price History</h2>
-                        <p class="text-xs">
+                    <div class="mb-8 ml-4">
+                        <h2 class="text-lg font-bold mb-1">Price History</h2>
+                        <p class="text-xs mt-1 mb-1">
                             January 10, 2024
                         </p>
-                        <p class="text-xs">
-                            RSA Fund I: 1.8732
+                        <p class="text-xs mt-1 mb-1">
+                            RSA Fund I: <span class="font-bold">1.8732</span>
                         </p>
-                        <p class="text-xs">
-                            RSA Fund II: 7.1425
+                        <p class="text-xs mt-1 mb-1">
+                            RSA Fund II: <span class="font-bold">7.1425</span>
                         </p>
-                        <p class="text-xs">
-                            RSA Fund III: 1.8084
+                        <p class="text-xs mt-1 mb-1">
+                            RSA Fund III: <span class="font-bold">1.8084</span>
                         </p>
-                        <p class="text-xs">
-                            RSA Fund IV: 5.7166
+                        <p class="text-xs mt-1 mb-1">
+                            RSA Fund IV: <span class="font-bold">5.7166</span>
                         </p>
-                        <p class="text-xs">
-                            RSA Fund V: 1.3933
+                        <p class="text-xs mt-1 mb-1">
+                            RSA Fund V: <span class="font-bold">1.3933</span>
                         </p>
-                        <p class="text-xs">
-                            RSA Fund VI Active: 1.2936
+                        <p class="text-xs mt-1 mb-1">
+                            RSA Fund VI Active: <span class="font-bold">1.2936</span>
                         </p>
-                        <p class="text-xs">
-                            RSA Fund VI Retiree: 1.2053
+                        <p class="text-xs mt-1 mb-1">
+                            RSA Fund VI Retiree: <span class="font-bold">1.2053</span>
                         </p>
-                        <p class="text-lg font-semibold">
+                        <p class="text-lg font-semibold mt-1 mb-1">
                             Learn More
                         </p>
                     </div>
