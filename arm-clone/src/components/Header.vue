@@ -6,5 +6,6 @@
         </span>
         <button class="py-2 px-8 text-white bg-pink-800 ml-9">Get Started</button>
     </div>
+    <Nav />
 </template>
   
