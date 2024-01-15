@@ -11,18 +11,17 @@
                 </div>
             </div>
 
-            <div class="ml-10 flex flex-col w-4/12">
-                <h1 class="text-blueText text-5xl font-serif mb-6">Tomorrow is looking good.</h1>
+            <div class="ml-10 flex flex-col w-5/12 mr-10">
+                <h1 class="text-blueText text-4xl font-serif mb-6 font-bold">Tomorrow is looking good.</h1>
                 <p class="text-lg">Retirement is supposed to be enjoyable and stress-free, so we created our planning
-                    experience to be that way too.
+                  experience to be that way too.
                 </p>
-                <p class="text-lg mt-6 mb-6">This isn't a typical retirement planning experience. It's delightful,
-                    research-backed,
-                    and focuses on what's most
-                    important: you.
+                <p class="text-lg mt-6 mb-6">This isn't a typical retirement planning experience. It's delightful, research-backed,
+                  and focuses on what's most important: you.
                 </p>
-                <button class="py-2 px-8 text-white bg-pink-800 ml-9 font-sans rounded w-52">Make it happen</button>
-            </div>
+                <button class="py-2 px-8 text-white bg-pink-800 ml-0 font-sans rounded w-52">Make it happen</button>
+              </div>
+              
         </div>
 
 
