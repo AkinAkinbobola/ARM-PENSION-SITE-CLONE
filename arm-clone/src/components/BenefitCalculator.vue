@@ -20,5 +20,19 @@
             </p>
             <button class="py-2 px-4 text-white bg-pink-800 ml-0 font-sans rounded w-28">Start Now</button>
     </div>
+
+    <div>
+        <h1>Retirement Benefit Calculator</h1>
+        <h2>TOTAL RETURNS</h2>
+        <h1>$0.00</h1>
+        <h3>Current RSA Balance</h3>
+        <input type="text">
+        <h3>Current RSA Balance</h3>
+        <input type="text">
+        <h3>Current RSA Balance</h3>
+        <input type="text">
+        <h3>Current RSA Balance</h3>
+        <input type="text">
+    </div>
 </div>
 </template>
