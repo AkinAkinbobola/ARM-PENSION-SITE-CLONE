@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-cream h-[80vh]">
+    <div class="bg-cream h-[75vh]">
         <div class="flex pt-10 ml-10">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
                 <img src="../assets/images/grid/grid1.jpg" class="w-20" alt="Image 1">
@@ -20,8 +20,7 @@
                   and focuses on what's most important: you.
                 </p>
                 <button class="py-2 px-8 text-white bg-pink-800 ml-0 font-sans rounded w-52">Make it happen</button>
-              </div>
-              
+              </div>              
         </div>
 
 
