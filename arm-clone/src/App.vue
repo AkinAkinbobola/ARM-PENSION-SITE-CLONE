@@ -2,6 +2,7 @@
 import Header from './components/Header.vue';
 import Slider from './components/Slider.vue';
 import CardSection from './components/CardSection.vue';
+import NoSolicitors from './components/NoSolicitors.vue'
 
 </script>
 
@@ -10,5 +11,6 @@ import CardSection from './components/CardSection.vue';
     <Header />
     <Slider />
     <CardSection />
+    <NoSolicitors />
   </div>
 </template>
