@@ -11,8 +11,8 @@ import image from '../assets/images/info.jpg';
                 <div class="absolute inset-0 bg-black opacity-50"></div>
                 <div class="absolute inset-0 flex items-center justify-center text-white">
                     <div class="text-center">
-                        <h2 class="text-4xl font-bold mb-4">Card Title 1</h2>
-                        <p class="text-lg">Description or additional text goes here.</p>
+                        <h2 class="text-4xl font-bold mb-4">Benefit Payment</h2>
+                        <p class="text-lg">Learn More</p>
                     </div>
                 </div>
             </div>
@@ -21,8 +21,8 @@ import image from '../assets/images/info.jpg';
                 <div class="absolute inset-0 bg-black opacity-50"></div>
                 <div class="absolute inset-0 flex items-center justify-center text-white">
                     <div class="text-center">
-                        <h2 class="text-4xl font-bold mb-4">Card Title 1</h2>
-                        <p class="text-lg">Description or additional text goes here.</p>
+                        <h2 class="text-4xl font-bold mb-4">Voluntary Contributions</h2>
+                        <p class="text-lg">Learn More</p>
                     </div>
                 </div>
             </div>
@@ -31,8 +31,8 @@ import image from '../assets/images/info.jpg';
                 <div class="absolute inset-0 bg-black opacity-50"></div>
                 <div class="absolute inset-0 flex items-center justify-center text-white">
                     <div class="text-center">
-                        <h2 class="text-4xl font-bold mb-4">Card Title 1</h2>
-                        <p class="text-lg">Description or additional text goes here.</p>
+                        <h2 class="text-4xl font-bold mb-4">Account Maintenance</h2>
+                        <p class="text-lg">Learn More</p>
                     </div>
                 </div>
             </div>
@@ -41,8 +41,34 @@ import image from '../assets/images/info.jpg';
                 <div class="absolute inset-0 bg-black opacity-50"></div>
                 <div class="absolute inset-0 flex items-center justify-center text-white">
                     <div class="text-center">
-                        <h2 class="text-4xl font-bold mb-4">Card Title 1</h2>
-                        <p class="text-lg">Description or additional text goes here.</p>
+                        <h2 class="text-4xl font-bold mb-4">Price History</h2>
+                        <p class="text-xs">
+                            January 10, 2024
+                        </p>
+                        <p class="text-xs">
+                            RSA Fund I: 1.8732
+                        </p>
+                        <p class="text-xs">
+                            RSA Fund II: 7.1425
+                        </p>
+                        <p class="text-xs">
+                            RSA Fund III: 1.8084
+                        </p>
+                        <p class="text-xs">
+                            RSA Fund IV: 5.7166
+                        </p>
+                        <p class="text-xs">
+                            RSA Fund V: 1.3933
+                        </p>
+                        <p class="text-xs">
+                            RSA Fund VI Active: 1.2936
+                        </p>
+                        <p class="text-xs">
+                            RSA Fund VI Retiree: 1.2053
+                        </p>
+                        <p class="text-xs">
+                            Learn More
+                        </p>
                     </div>
                 </div>
             </div>
