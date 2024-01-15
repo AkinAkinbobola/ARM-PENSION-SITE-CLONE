@@ -1,5 +1,10 @@
+<script setup>
+import logo from "../assets/images/arm_logo.jpg"
+</script>
+
 <template>
-    <div class="ml-10 w-11/12">
+    <div class="ml-10 w-11/12 h-12">
+        <img :src="logo" alt="" srcset="">
         <a href="#">ABOUT US</a>
         <a href="#">RETIREMENT PLANS</a>
         <a href="#">MULTI FUND STRUCTURE</a>
