@@ -9,9 +9,20 @@ import image from '../assets/images/info.jpg';
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4 mx-14">
             <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
                 <div class="absolute inset-0 bg-black opacity-50"></div>
-                <div class="absolute inset-0 flex items-center justify-center text-white">
-                    <div class="text-center">
-                        <h2 class="text-4xl font-bold mb-4">Benefit Payment</h2>
+                <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
+                    <div class="mb-8 ml-4">
+                        <h2 class="text-lg font-bold mb-4">Benefit Payment</h2>
+                        <p class="text-lg">Learn More</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
+                <div class="absolute inset-0 bg-black opacity-50"></div>
+                <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
+                    <div class="mb-8 ml-4">
+                        <h2 class="text-lg font-bold mb-4">Voluntary Contributions</h2>
                         <p class="text-lg">Learn More</p>
                     </div>
                 </div>
@@ -19,19 +30,9 @@ import image from '../assets/images/info.jpg';
 
             <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
                 <div class="absolute inset-0 bg-black opacity-50"></div>
-                <div class="absolute inset-0 flex items-center justify-center text-white">
-                    <div class="text-center">
-                        <h2 class="text-4xl font-bold mb-4">Voluntary Contributions</h2>
-                        <p class="text-lg">Learn More</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
-                <div class="absolute inset-0 bg-black opacity-50"></div>
-                <div class="absolute inset-0 flex items-center justify-center text-white">
-                    <div class="text-center">
-                        <h2 class="text-4xl font-bold mb-4">Account Maintenance</h2>
+                <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
+                    <div class="mb-8 ml-4">
+                        <h2 class="text-lg font-bold mb-4">Account Maintenance</h2>
                         <p class="text-lg">Learn More</p>
                     </div>
                 </div>
