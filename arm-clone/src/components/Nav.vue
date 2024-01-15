@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="ml-10 w-11/12">
         <a href="#">ABOUT US</a>
         <a href="#">RETIREMENT PLANS</a>
         <a href="#">MULTI FUND STRUCTURE</a>
