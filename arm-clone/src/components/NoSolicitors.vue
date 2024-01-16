@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-yellow h-[60vh] flex items-center justify-center">
+    <div class="bg-yellow flex items-center justify-center py-20 md:flex-col">
         <img src="../assets//images/soliciting.png" class="w-28" />
     
         <div class="ml-8 flex flex-col items-baseline">

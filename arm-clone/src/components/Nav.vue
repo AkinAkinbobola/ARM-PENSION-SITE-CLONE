@@ -3,8 +3,8 @@ import logo from "../assets/images/arm_logo.jpg"
 </script>
 
 <template>
-    <div class="ml-10 w-11/12 mt-4 flex items-center">
-        <img :src="logo" alt="ARM Pension Logo" class="w-28 mr-5">
+    <div class="ml-10 w-11/12 mt-4 flex items-center justify-between">
+        <img :src="logo" alt="ARM Pension Logo" class="w-28 mr-4">
         <div class="md:hidden mr-12 border border-hamburger py-2 px-5 rounded">
             <font-awesome-icon :icon="['fas', 'bars']" class="text-2xl text-burgerInner" />
         </div>
