@@ -10,7 +10,8 @@ export default {
         primary: '#a8005b',
         blueText: '#1b365d',
         cream: '#fbf6f2',
-        yellow: '#f5b42d40'
+        yellow: '#f5b42d40',
+        footerBlack: '#1f1f1f'
       }
     },
   },

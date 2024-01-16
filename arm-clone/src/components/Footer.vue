@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black text-white flex">
+    <div class="bg-footerBlack text-white flex">
         <div class="flex flex-col">
             <h1>CONTACT US</h1>
             <p>5, Mekunwen Rd. Off Oyinkan Abayomi Drive PMB 80173, Ikoyi, Lagos, Nigeria</p>
