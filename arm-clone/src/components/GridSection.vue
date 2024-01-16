@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-cream h-[75vh]">
+    <div class="bg-cream pb-20">
         <div class="flex pt-10 ml-10">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
                 <img src="../assets/images/grid/grid1.jpg" class="w-20" alt="Image 1">
