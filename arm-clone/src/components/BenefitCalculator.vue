@@ -32,13 +32,13 @@
             <h1 class="text-4xl font-semibold mb-8">&#8358 0.00</h1>
             <form class="flex flex-col">
                 <label for="rsaBalance" class="text-lg mb-2">Current RSA Balance</label>
-                <input type="number" name="rsaBalance" class="h-8 mb-3">
+                <input type="number" name="rsaBalance" class="h-8 mb-3 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200 p-2">
                 <label for="monthlyContrib" class="text-lg mb-2">Total Monthly Contribution (in Naira)*</label>
-                <input type="number" name="monthlyContrib" class="h-8 mb-3">
+                <input type="number" name="monthlyContrib" class="h-8 mb-3 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200 p-2">
                 <label for="volunContrib" class="text-lg mb-2">Monthly Voluntary Contribution (in Naira)</label>
-                <input type="number" name="volunContrib" class="h-8 mb-3">
+                <input type="number" name="volunContrib" class="h-8 mb-3 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200 p-2">
                 <label for="retireDt" class="text-lg mb-2">Expected Retirement Date*</label>
-                <input type="date" name="retireDt" class="h-8 mb-4">
+                <input type="date" name="retireDt" class="h-8 mb-4 focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200 p-2">
                 <button class="py-2 px-4 text-white bg-pink-800 ml-0 font-sans rounded">Calculate</button>
             </form>
             <div class="text-base mt-12 mb-4">
