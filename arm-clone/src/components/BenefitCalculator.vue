@@ -1,6 +1,6 @@
 <template>
-    <div class="flex mx-20 mt-14 mb-14">
-        <div class="flex flex-col w-5/12">
+    <div class="flex mx-20 mt-14 mb-14 flex-col md:flex-row">
+        <div class="flex flex-col md:w-5/12">
             <h1 class="text-blueText text-3xl font-serif font-bold mb-4">Plan your retirement with us</h1>
             <h1 class="text-2xl font-sans font-bold mb-2">Can I buy my dream house at retirement?</h1>
             <p class="text-justify">When you have accumulated enough money in your retirement savings account (RSA) during
@@ -23,10 +23,10 @@
                 Voluntary Contributions made to your RSA today, your tomorrow will be filled with making your dreams come
                 true.
             </p>
-            <button class="py-2 px-4 text-white bg-pink-800 ml-0 font-sans rounded w-28">Start Now</button>
+            <button class="py-2 px-4 text-white bg-pink-800 ml-0 font-sans rounded w-28 mb-12 md:mb-0">Start Now</button>
         </div>
 
-        <div class="flex flex-col w-6/12 ml-40 bg-cream rounded pt-14 px-6 shadow-lg">
+        <div class="flex flex-col md:w-6/12 md:ml-40 bg-cream rounded pt-14 px-6 shadow-lg">
             <h1 class="text-blueText text-3xl font-serif font-bold mb-4">Retirement Benefit Calculator</h1>
             <h2 class="text-sm">TOTAL RETURNS</h2>
             <h1 class="text-4xl font-semibold mb-8">&#8358 0.00</h1>
@@ -47,7 +47,7 @@
                 achieve this
                 goal
             </div>
-            <div class="flex">
+            <div class="flex pb-4">
                 <a href="#" class="text-primary mr-2 text-xs font-bold font-sans hover:underline hover:text-blue-400">Try
                     our advanced retirement planning tool
                 </a>
