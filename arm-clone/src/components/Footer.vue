@@ -1,6 +1,6 @@
 <template>
     <div class="bg-footerBlack text-white flex py-14 px-10">
-        <div class="flex flex-col w-2/5 mr-14">
+        <div class="flex flex-col w-2/5 mr-12">
             <h1 class="font-bold mb-4">CONTACT US</h1>
             <p class="text-sm font-sans mb-2">5, Mekunwen Rd. Off Oyinkan Abayomi Drive PMB 80173, Ikoyi, Lagos, Nigeria</p>
             <p class="text-sm font-sans mb-2">+234 1 2715005(Head Office)</p>
@@ -14,7 +14,7 @@
             <a href="#" class="text-footerGrey hover:underline text-sm mb-2">Cookie Policy</a>
         </div>
 
-        <div class="flex flex-col w-1/4">
+        <div class="flex flex-col w-1/4 mr-4">
             <h1 class="font-bold mb-4">USEFUL LINKS</h1>
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Daily Unit Prices</a>
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Careers</a>
