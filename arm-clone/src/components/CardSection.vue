@@ -12,7 +12,11 @@ import image from '../assets/images/info.jpg';
                 <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
                     <div class="mb-8 ml-4">
                         <h2 class="text-lg font-bold mb-4">Benefit Payment</h2>
-                        <p class="text-lg font-semibold">Learn More</p>
+                        <div class="flex items-center">
+                            <p class="text-lg font-semibold">Learn More</p>
+                            <font-awesome-icon :icon="['fas', 'arrow-right']" class="pl-2" />
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -23,7 +27,10 @@ import image from '../assets/images/info.jpg';
                 <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
                     <div class="mb-8 ml-4">
                         <h2 class="text-lg font-bold mb-4">Voluntary Contributions</h2>
-                        <p class="text-lg font-semibold">Learn More</p>
+                        <div class="flex items-center">
+                            <p class="text-lg font-semibold">Learn More</p>
+                            <font-awesome-icon :icon="['fas', 'arrow-right']" class="pl-2" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,7 +40,10 @@ import image from '../assets/images/info.jpg';
                 <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
                     <div class="mb-8 ml-4">
                         <h2 class="text-lg font-bold mb-4">Account Maintenance</h2>
-                        <p class="text-lg font-semibold">Learn More</p>
+                        <div class="flex items-center">
+                            <p class="text-lg font-semibold">Learn More</p>
+                            <font-awesome-icon :icon="['fas', 'arrow-right']" class="pl-2" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,9 +77,10 @@ import image from '../assets/images/info.jpg';
                         <p class="text-xs mt-1 mb-1">
                             RSA Fund VI Retiree: <span class="font-bold">1.2053</span>
                         </p>
-                        <p class="text-lg font-semibold mt-1 mb-1">
-                            Learn More
-                        </p>
+                        <div class="flex items-center">
+                            <p class="text-lg font-semibold">Learn More</p>
+                            <font-awesome-icon :icon="['fas', 'arrow-right']" class="pl-2" />
+                          </div>
                     </div>
                 </div>
             </div>
