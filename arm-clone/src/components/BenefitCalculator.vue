@@ -1,5 +1,5 @@
 <template>
-    <div class="flex mx-20 mt-14">
+    <div class="flex mx-20 mt-14 mb-14">
         <div class="flex flex-col w-5/12">
             <h1 class="text-blueText text-3xl font-serif font-bold mb-4">Plan your retirement with us</h1>
             <h1 class="text-2xl font-sans font-bold mb-2">Can I buy my dream house at retirement?</h1>
