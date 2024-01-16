@@ -20,7 +20,8 @@ import Footer from './components/Footer.vue'
     <BenefitCalculator />
     <Download />
     <Footer />
-    <div class="w-20 h-20 bg-primary rounded-full flex items-center justify-center">
+    <div class="w-20 h-20 bg-primary rounded-full flex items-center justify-center fixed bottom-0 right-0 mr-4 mb-5">
       <font-awesome-icon :icon="['far', 'comments']" class="text-white text-3xl" />
-  </div>  </div>
+    </div>
+  </div>
 </template>
