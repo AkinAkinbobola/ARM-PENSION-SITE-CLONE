@@ -34,6 +34,6 @@ import logo from "../assets/images/arm_logo.jpg"
         </span> <a href="#" class="border-b-2 border-transparent hover:border-primary transition">FEEDBACK</a>
         <a href="#" class="border-b-2 border-transparent hover:border-primary transition">CAREERS</a>
     </div>
-    <div class="border-b"></div>
+    <div class="border-b mt-1"></div>
 </template>
   
