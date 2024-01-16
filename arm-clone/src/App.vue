@@ -6,6 +6,7 @@ import NoSolicitors from './components/NoSolicitors.vue'
 import GridSection from './components/GridSection.vue'
 import BenefitCalculator from './components/BenefitCalculator.vue'
 import Download from './components/Download.vue'
+import Footer from './components/Footer.vue'
 
 </script>
 
@@ -18,5 +19,6 @@ import Download from './components/Download.vue'
     <GridSection />
     <BenefitCalculator />
     <Download />
+    <Footer />
   </div>
 </template>
