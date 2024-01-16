@@ -26,7 +26,7 @@
             <button class="py-2 px-4 text-white bg-pink-800 ml-0 font-sans rounded w-28">Start Now</button>
         </div>
 
-        <div class="flex flex-col w-6/12 ml-40 bg-cream rounded pt-14 px-6">
+        <div class="flex flex-col w-6/12 ml-40 bg-cream rounded pt-14 px-6 shadow-lg">
             <h1 class="text-blueText text-3xl font-serif font-bold mb-4">Retirement Benefit Calculator</h1>
             <h2 class="text-sm">TOTAL RETURNS</h2>
             <h1 class="text-4xl font-semibold mb-8">&#8358 0.00</h1>
