@@ -27,15 +27,15 @@
             <h1 class="text-blueText text-3xl font-serif font-bold mb-4">Retirement Benefit Calculator</h1>
             <h2 class="text-sm">TOTAL RETURNS</h2>
             <h1 class="text-4xl font-semibold mb-8">$0.00</h1>
-            <form>
+            <form class="flex flex-col">
                 <label for="rsaBalance" class="font-lg">Current RSA Balance</label>
-                <input type="number" name="rsaBalance">
+                <input type="number" name="rsaBalance" class="h-8">
                 <label for="monthlyContrib">Total Monthly Contribution (in Naira)*</label>
-                <input type="number" name="monthlyContrib">
+                <input type="number" name="monthlyContrib" class="h-8">
                 <label for="volunContrib">Monthly Voluntary Contribution (in Naira)</label>
-                <input type="number" name="volunContrib">
+                <input type="number" name="volunContrib" class="h-8">
                 <label for="retireDt">Expected Retirement Date*</label>
-                <input type="date" name="retireDt">
+                <input type="date" name="retireDt" class="h-8">
                 <button class="py-2 px-4 text-white bg-pink-800 ml-0 font-sans rounded w-28">Calculate</button>
             </form>
             <div>
