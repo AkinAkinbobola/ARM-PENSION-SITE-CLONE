@@ -1,7 +1,7 @@
 <template>
     <div class="bg-footerBlack text-white flex py-14 px-10">
         <div class="flex flex-col w-2/5 mr-14">
-            <h1 class="font-bold">CONTACT US</h1>
+            <h1 class="font-bold mb-4">CONTACT US</h1>
             <p class="text-sm font-sans mb-3">5, Mekunwen Rd. Off Oyinkan Abayomi Drive PMB 80173, Ikoyi, Lagos, Nigeria</p>
             <p class="text-sm font-sans mb-1">+234 1 2715005(Head Office)</p>
             <p class="text-sm font-sans mb-1">+234 1 2715000(Call Centre)</p>
@@ -15,18 +15,18 @@
         </div>
 
         <div class="flex flex-col w-1/4">
-            <h1 class="font-bold">USEFUL LINKS</h1>
-            <a href="#" class="text-footerGrey hover:underline text-xs">Daily Unit Prices</a>
-            <a href="#" class="text-footerGrey hover:underline text-xs">Careers</a>
-            <a href="#" class="text-footerGrey hover:underline text-xs">Delete Account</a>
-            <a href="#" class="text-footerGrey hover:underline text-xs">ARM Group</a>
-            <a href="#" class="text-footerGrey hover:underline text-xs">National Pension Commission</a>
-            <a href="#" class="text-footerGrey hover:underline text-xs">Pension Fund Operators Association of Nigeria</a>
-            <a href="#" class="text-footerGrey hover:underline text-xs">Whistle Blowing</a>
-            <a href="#" class="text-footerGrey hover:underline text-xs">Public Notice on abuse of the Pensions Scheme</a>
+            <h1 class="font-bold mb-4">USEFUL LINKS</h1>
+            <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-1">Daily Unit Prices</a>
+            <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-1">Careers</a>
+            <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-1">Delete Account</a>
+            <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-1">ARM Group</a>
+            <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-1">National Pension Commission</a>
+            <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-1">Pension Fund Operators Association of Nigeria</a>
+            <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-1">Whistle Blowing</a>
+            <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-1">Public Notice on abuse of the Pensions Scheme</a>
         </div>
         <div class="flex flex-col w-1/3">
-            <h1 class="font-bold">USEFUL LINKS</h1>
+            <h1 class="font-bold mb-4">MEDIA CENTER</h1>
             <a href="#" class="text-footerGrey hover:underline text-xs">Frequently Asked Questions</a>
             <a href="#" class="text-footerGrey hover:underline text-xs">Monthly Digest and Newsletters</a>
             <a href="#" class="text-footerGrey hover:underline text-xs">Pension Reform Act 2014</a>
@@ -38,7 +38,7 @@
 
         </div>
         <div class="flex flex-col w-1/3">
-            <h1 class="font-bold">SOCIALS</h1>
+            <h1 class="font-bold mb-4">SOCIALS</h1>
             <div class="flex">
                 <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
                     <font-awesome-icon :icon="['fab', 'linkedin-in']" class="text-black text-2xl" />
