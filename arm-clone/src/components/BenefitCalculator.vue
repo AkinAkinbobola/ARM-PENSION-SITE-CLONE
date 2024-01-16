@@ -42,7 +42,8 @@
                 <button class="py-2 px-4 text-white bg-pink-800 ml-0 font-sans rounded">Calculate</button>
             </form>
             <div class="text-base mt-12 mb-4">
-                You will have <span class="font-bold text-blueText">N 0.00</span> at the time of retirement. Use our retirement planner to help you plan and
+                You will have <span class="font-bold text-blueText">N 0.00</span> at the time of retirement. Use our
+                retirement planner to help you plan and
                 achieve this
                 goal
             </div>
@@ -51,6 +52,7 @@
                     our advanced retirement planning tool
                 </a>
                 <font-awesome-icon :icon="['fas', 'arrow-right']" class="text-primary" />
+            </div>
         </div>
     </div>
-</div></template>
+</template>

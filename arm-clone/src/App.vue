@@ -5,6 +5,7 @@ import CardSection from './components/CardSection.vue'
 import NoSolicitors from './components/NoSolicitors.vue'
 import GridSection from './components/GridSection.vue'
 import BenefitCalculator from './components/BenefitCalculator.vue'
+import Download from './components/Download.vue'
 
 </script>
 
@@ -16,5 +17,6 @@ import BenefitCalculator from './components/BenefitCalculator.vue'
     <NoSolicitors />
     <GridSection />
     <BenefitCalculator />
+    <Download />
   </div>
 </template>
