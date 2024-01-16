@@ -33,6 +33,9 @@
             <a href="#">Regulations and Financial Reports</a>
             <a href="#">Notice on Pension Reform Act 2014</a>
             <a href="#">Download the Engage App</a>
+            <img src="../assets/images/download/google.png">
+            <img src="../assets/images/download/apple.png">
+
         </div>
         <div>
             <h1>SOCIALS</h1>
