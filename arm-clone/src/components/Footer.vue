@@ -25,7 +25,7 @@
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Whistle Blowing</a>
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Public Notice on abuse of the Pensions Scheme</a>
         </div>
-        <div class="flex flex-col w-1/3">
+        <div class="flex flex-col w-1/3 mr-4">
             <h1 class="font-bold mb-4">MEDIA CENTER</h1>
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Frequently Asked Questions</a>
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Monthly Digest and Newsletters</a>
@@ -37,26 +37,24 @@
             <img src="../assets/images/download/apple.png" class="w-5/6">
 
         </div>
-        <div class="flex flex-col w-1/3">
+        <div class="flex flex-col w-5/12">
             <h1 class="font-bold mb-4">SOCIALS</h1>
-            <div class="flex">
-                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+            <div class="flex mb-6">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-4">
                     <font-awesome-icon :icon="['fab', 'linkedin-in']" class="text-black text-2xl" />
                 </div>
-                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-4">
                     <font-awesome-icon :icon="['fab', 'twitter']" class="text-black text-2xl" />
                 </div>
-                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-4">
                     <font-awesome-icon :icon="['fab', 'instagram']" class="text-black text-2xl" />
                 </div>
-                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-4">
                     <font-awesome-icon :icon="['fab', 'facebook-f']" class="text-black text-2xl" />
                 </div>
             </div>
 
-
-
-            <div class="flex w-28">
+            <div class="flex w-5/12">
                 <img src="../assets/images/footer/footer1.jpg">
                 <img src="../assets/images/footer/footer2.jpg">
             </div>
