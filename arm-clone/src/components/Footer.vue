@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-footerBlack text-white flex py-14 px-10">
-        <div class="flex flex-col w-2/5 mr-12">
+    <div class="bg-footerBlack text-white flex py-14 px-10 flex-col md:flex-row">
+        <div class="flex flex-col md:w-2/5 mr-12">
             <h1 class="font-bold mb-4">CONTACT US</h1>
             <p class="text-sm font-sans mb-2">5, Mekunwen Rd. Off Oyinkan Abayomi Drive PMB 80173, Ikoyi, Lagos, Nigeria</p>
             <p class="text-sm font-sans mb-2">+234 1 2715005(Head Office)</p>
@@ -14,7 +14,7 @@
             <a href="#" class="text-footerGrey hover:underline text-sm mb-2">Cookie Policy</a>
         </div>
 
-        <div class="flex flex-col w-1/4 mr-4">
+        <div class="flex flex-col md:w-1/4 mr-4">
             <h1 class="font-bold mb-4">USEFUL LINKS</h1>
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Daily Unit Prices</a>
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Careers</a>
@@ -34,12 +34,12 @@
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Notice on Pension Reform Act 2014</a>
             <a href="#" class="text-footerGrey hover:underline text-sm font-sans mb-2">Download the Engage App</a>
             <img src="../assets/images/download/google.png" class="w-5/6 mb-2">
-            <img src="../assets/images/download/apple.png" class="w-5/6">
+            <img src="../assets/images/download/apple.png" class="w-5/6 mb-6 md:mb-0">
 
         </div>
-        <div class="flex flex-col w-5/12">
+        <div class="flex flex-col md:w-5/12 ">
             <h1 class="font-bold mb-4">SOCIALS</h1>
-            <div class="flex mb-6">
+            <div class="flex mb-6 justify-between">
                 <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center mr-4">
                     <font-awesome-icon :icon="['fab', 'linkedin-in']" class="text-black text-2xl" />
                 </div>
@@ -54,8 +54,8 @@
                 </div>
             </div>
 
-            <div class="flex w-5/12 mb-4 ml-2">
-                <img src="../assets/images/footer/footer1.jpg">
+            <div class="flex md:w-5/12 mb-4 ml-2 w-3/12">
+                <img src="../assets/images/footer/footer1.jpg" class="mr-40 md:mr-0">
                 <img src="../assets/images/footer/footer2.jpg">
             </div>
 
