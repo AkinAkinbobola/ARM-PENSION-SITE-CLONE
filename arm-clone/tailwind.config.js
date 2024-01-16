@@ -11,7 +11,8 @@ export default {
         blueText: '#1b365d',
         cream: '#fbf6f2',
         yellow: '#f5b42d40',
-        footerBlack: '#1f1f1f'
+        footerBlack: '#1f1f1f',
+        footerGrey: '#6c757d'
       }
     },
   },

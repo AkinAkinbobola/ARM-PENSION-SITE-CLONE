@@ -1,44 +1,44 @@
 <template>
-    <div class="bg-footerBlack text-white flex">
+    <div class="bg-footerBlack text-white flex py-14 px-10">
         <div class="flex flex-col">
-            <h1>CONTACT US</h1>
-            <p>5, Mekunwen Rd. Off Oyinkan Abayomi Drive PMB 80173, Ikoyi, Lagos, Nigeria</p>
-            <p>+234 1 2715005(Head Office)</p>
-            <p>+234 1 2715000(Call Centre)</p>
-            <p>+234 1 3305000(Call Centre)</p>
-            <p>+234 1 4650000(Call Centre)</p>
-            <p>0700CALLARM (07002255276) Call Centre</p>
-            <a href="#">Make a complaint</a>
-            <a href="#">Find a branch</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Cookie Policy</a>
+            <h1 class="font-bold">CONTACT US</h1>
+            <p class="text-xs">5, Mekunwen Rd. Off Oyinkan Abayomi Drive PMB 80173, Ikoyi, Lagos, Nigeria</p>
+            <p class="text-xs">+234 1 2715005(Head Office)</p>
+            <p class="text-xs">+234 1 2715000(Call Centre)</p>
+            <p class="text-xs">+234 1 3305000(Call Centre)</p>
+            <p class="text-xs">+234 1 4650000(Call Centre)</p>
+            <p class="text-xs">0700CALLARM (07002255276) Call Centre</p>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Make a complaint</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Find a branch</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Privacy Policy</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Cookie Policy</a>
         </div>
 
         <div class="flex flex-col">
-            <h1>USEFUL LINKS</h1>
-            <a href="#">Daily Unit Prices</a>
-            <a href="#">Careers</a>
-            <a href="#">Delete Account</a>
-            <a href="#">ARM Group</a>
-            <a href="#">National Pension Commission</a>
-            <a href="#">Pension Fund Operators Association of Nigeria</a>
-            <a href="#">Whistle Blowing</a>
-            <a href="#">Public Notice on abuse of the Pensions Scheme</a>
+            <h1 class="font-bold">USEFUL LINKS</h1>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Daily Unit Prices</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Careers</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Delete Account</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">ARM Group</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">National Pension Commission</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Pension Fund Operators Association of Nigeria</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Whistle Blowing</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Public Notice on abuse of the Pensions Scheme</a>
         </div>
         <div class="flex flex-col">
-            <h1>USEFUL LINKS</h1>
-            <a href="#">Frequently Asked Questions</a>
-            <a href="#">Monthly Digest and Newsletters</a>
-            <a href="#">Pension Reform Act 2014</a>
-            <a href="#">Regulations and Financial Reports</a>
-            <a href="#">Notice on Pension Reform Act 2014</a>
-            <a href="#">Download the Engage App</a>
+            <h1 class="font-bold">USEFUL LINKS</h1>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Frequently Asked Questions</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Monthly Digest and Newsletters</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Pension Reform Act 2014</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Regulations and Financial Reports</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Notice on Pension Reform Act 2014</a>
+            <a href="#" class="text-footerGrey hover:underline text-xs">Download the Engage App</a>
             <img src="../assets/images/download/google.png">
             <img src="../assets/images/download/apple.png">
 
         </div>
         <div>
-            <h1>SOCIALS</h1>
+            <h1 class="font-bold">SOCIALS</h1>
             <font-awesome-icon :icon="['fab', 'linkedin-in']" />
             <font-awesome-icon :icon="['fab', 'twitter']" />
             <font-awesome-icon :icon="['fab', 'instagram']" />
@@ -48,7 +48,7 @@
                 <img src="../assets/images/footer/footer2.jpg">
             </div>
 
-            <p>We have taken extra steps to ensure the safety of your information by acquiring the ISO 27001:2013
+            <p class="italic">We have taken extra steps to ensure the safety of your information by acquiring the ISO 27001:2013
                 certification for information security.</p>
         </div>
     </div>
