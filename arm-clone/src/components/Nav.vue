@@ -6,12 +6,32 @@ import logo from "../assets/images/arm_logo.jpg"
     <div class="ml-10 w-11/12 mt-2 flex justify-between items-center">
         <img :src="logo" alt="ARM Pension Logo" class="w-28">
         <a href="#" class="border-b-2 border-transparent hover:border-primary transition">ABOUT US</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-primary transition">RETIREMENT PLANS</a>
+        <span class="border-b-2 border-transparent hover:border-primary transition">
+            <a href="#">
+                RETIREMENT PLANS
+            </a>
+            <font-awesome-icon :icon="['fas', 'caret-down']" />
+        </span>
+
         <a href="#" class="border-b-2 border-transparent hover:border-primary transition">MULTI FUND STRUCTURE</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-primary transition">PORTALS</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-primary transition">MEDIA</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-primary transition">CONTACT</a>
-        <a href="#" class="border-b-2 border-transparent hover:border-primary transition">FEEDBACK</a>
+        <span class="border-b-2 border-transparent hover:border-primary transition">
+            <a href="#">
+                PORTALS
+            </a>
+            <font-awesome-icon :icon="['fas', 'caret-down']" />
+        </span>
+        <span class="border-b-2 border-transparent hover:border-primary transition">
+            <a href="#">
+                MEDIA
+            </a>
+            <font-awesome-icon :icon="['fas', 'caret-down']" />
+        </span>
+        <span class="border-b-2 border-transparent hover:border-primary transition">
+            <a href="#">
+                CONTACT
+            </a>
+            <font-awesome-icon :icon="['fas', 'caret-down']" />
+        </span> <a href="#" class="border-b-2 border-transparent hover:border-primary transition">FEEDBACK</a>
         <a href="#" class="border-b-2 border-transparent hover:border-primary transition">CAREERS</a>
     </div>
     <div class="border-b"></div>
