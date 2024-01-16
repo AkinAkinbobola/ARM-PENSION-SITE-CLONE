@@ -1,6 +1,6 @@
 <template>
     <div class="bg-yellow h-[60vh] flex items-center justify-center">
-        <img src="https://armpension.com/_nuxt/img/bbbd5c9.png" class="w-28" />
+        <img src="../assets//images/soliciting.png" class="w-28" />
     
         <div class="ml-8 flex flex-col items-baseline">
             <div class="flex items-center">
