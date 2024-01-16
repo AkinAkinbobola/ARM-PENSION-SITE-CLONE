@@ -19,7 +19,7 @@
             <img :src="image.img" alt="" srcset="">
         </swiper-slide>
     </swiper> -->
-    <div class="mt-2">
+    <div>
         <img src="../assets/images/slider_images/2.jpg" class="h-[50vh] w-full object-cover">
     </div>
 </template>
