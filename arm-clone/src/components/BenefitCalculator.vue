@@ -26,7 +26,7 @@
         <div class="flex flex-col w-6/12 ml-40 bg-cream rounded pt-14 px-6"> 
             <h1 class="text-blueText text-3xl font-serif font-bold mb-4">Retirement Benefit Calculator</h1>
             <h2 class="text-sm">TOTAL RETURNS</h2>
-            <h1 class="text-4xl font-semibold mb-8">$0.00</h1>
+            <h1 class="text-4xl font-semibold mb-8">&#8358 0.00</h1>
             <form class="flex flex-col">
                 <label for="rsaBalance" class="text-lg mb-2">Current RSA Balance</label>
                 <input type="number" name="rsaBalance" class="h-8 mb-3">
@@ -35,11 +35,11 @@
                 <label for="volunContrib" class="text-lg mb-2">Monthly Voluntary Contribution (in Naira)</label>
                 <input type="number" name="volunContrib" class="h-8 mb-3">
                 <label for="retireDt" class="text-lg mb-2">Expected Retirement Date*</label>
-                <input type="date" name="retireDt" class="h-8 mb-6">
+                <input type="date" name="retireDt" class="h-8 mb-4">
                 <button class="py-2 px-4 text-white bg-pink-800 ml-0 font-sans rounded">Calculate</button>
             </form>
-            <div>
-                You will have N 0.00 at the time of retirement. Use our retirement planner to help you plan and achieve this
+            <div class="text-xs">
+                You will have <span>N 0.00</span> N 0.00 at the time of retirement. Use our retirement planner to help you plan and achieve this
                 goal
             </div>
             <a href="#">Try our advanced retirement planning tool</a>
