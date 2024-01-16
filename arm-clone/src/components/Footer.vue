@@ -54,12 +54,12 @@
                 </div>
             </div>
 
-            <div class="flex w-5/12">
+            <div class="flex w-5/12 mb-4 ml-2">
                 <img src="../assets/images/footer/footer1.jpg">
                 <img src="../assets/images/footer/footer2.jpg">
             </div>
 
-            <p class="italic">We have taken extra steps to ensure the safety of your information by acquiring the ISO
+            <p class="italic text-sm text-justify">We have taken extra steps to ensure the safety of your information by acquiring the ISO
                 27001:2013
                 certification for information security.</p>
         </div>
