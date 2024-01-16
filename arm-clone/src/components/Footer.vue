@@ -39,16 +39,30 @@
         </div>
         <div>
             <h1 class="font-bold">SOCIALS</h1>
-            <font-awesome-icon :icon="['fab', 'linkedin-in']" />
-            <font-awesome-icon :icon="['fab', 'twitter']" />
-            <font-awesome-icon :icon="['fab', 'instagram']" />
-            <font-awesome-icon :icon="['fab', 'facebook-f']" />
+            <div class="flex">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                    <font-awesome-icon :icon="['fab', 'linkedin-in']" class="text-black text-2xl" />
+                </div>
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                    <font-awesome-icon :icon="['fab', 'twitter']" class="text-black text-2xl" />
+                </div>
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                    <font-awesome-icon :icon="['fab', 'instagram']" class="text-black text-2xl" />
+                </div>
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+                    <font-awesome-icon :icon="['fab', 'facebook-f']" class="text-black text-2xl" />
+                </div>
+            </div>
+
+
+
             <div class="flex w-28">
                 <img src="../assets/images/footer/footer1.jpg">
                 <img src="../assets/images/footer/footer2.jpg">
             </div>
 
-            <p class="italic">We have taken extra steps to ensure the safety of your information by acquiring the ISO 27001:2013
+            <p class="italic">We have taken extra steps to ensure the safety of your information by acquiring the ISO
+                27001:2013
                 certification for information security.</p>
         </div>
     </div>
