@@ -3,7 +3,7 @@ import logo from "../assets/images/arm_logo.jpg"
 </script>
 
 <template>
-    <div class="ml-10 w-11/12 mt-2 flex justify-between items-center">
+    <div class="ml-10 w-11/12 mt-4 flex justify-between items-center">
         <img :src="logo" alt="ARM Pension Logo" class="w-28">
         <a href="#" class="border-b-2 border-transparent hover:border-primary transition">ABOUT US</a>
         <span class="border-b-2 border-transparent hover:border-primary transition">

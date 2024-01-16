@@ -4,7 +4,7 @@ import Nav from './Nav.vue';
 
 <template>
     <div class="sticky top-0 z-10 bg-white">
-        <div class="flex justify-end w-11/12 items-center border-b border-gray-300 ml-10">
+        <div class="justify-end w-11/12 items-center border-b border-gray-300 ml-10 hidden lg:flex">
             <a href="#" class="text-primary mr-4 text-xs font-bold font-sans hover:underline hover:text-blue-400">Chat with
                 us on Whatsapp</a>
             <span class="text-primary text-xs font-bold font-sans">
