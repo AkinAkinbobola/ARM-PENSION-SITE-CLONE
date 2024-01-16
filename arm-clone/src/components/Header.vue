@@ -9,11 +9,12 @@ import Nav from './Nav.vue';
             <span class="text-primary text-xs font-bold font-sans">
                 <a href="#">01-2715000</a> or <a href="#">0700CALLARM</a>
             </span>
-            <button class="py-2 px-8 text-white bg-primary ml-9 font-sans">Get Started</button>
-    
+            <button class="py-2 px-8 text-white bg-primary ml-9 font-sans">
+                Get Started
+                <font-awesome-icon :icon="['fast', 'right-long']" /> 
+            </button>
         </div>
         <Nav />
     </div>
-    
 </template>
   
