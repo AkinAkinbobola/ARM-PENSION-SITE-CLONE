@@ -4,12 +4,12 @@ import image from '../assets/images/info.jpg';
 
 <template>
     <div class="my-10">
-        <h1 class="text-4xl text-blueText font-serif ml-10">Hi, how may we assist you today?</h1>
+        <h1 class="text-4xl text-blueText font-serif ml-10 mx-4 md:mx-40 text-center md:text-left">Hi, how may we assist you today?</h1>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4 mx-14">
-            <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
-                <div class="absolute inset-0 bg-black opacity-50"></div>
-                <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
+        <div class="flex flex-wrap mt-4 items-center justify-center md:flex-nowrap mx-4 md:mx-40">
+            <div class="bg-cover bg-center w-4/12 h-80 mr-4 mb-4 md:h-96 md:w-2/4" :style="{ backgroundImage: `url(${image})` }">
+                <div class=" bg-black opacity-50"></div>
+                <div class="flex flex-col justify-end items-start text-white">
                     <div class="mb-8 ml-4">
                         <h2 class="text-lg font-bold mb-4">Benefit Payment</h2>
                         <div class="flex items-center">
@@ -22,9 +22,9 @@ import image from '../assets/images/info.jpg';
             </div>
 
 
-            <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
-                <div class="absolute inset-0 bg-black opacity-50"></div>
-                <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
+            <div class="bg-cover bg-center w-4/12 h-80 mb-4 md:h-96 md:w-2/4 md:mr-4" :style="{ backgroundImage: `url(${image})` }">
+                <div class=" bg-black opacity-50"></div>
+                <div class=" flex flex-col justify-end items-start text-white">
                     <div class="mb-8 ml-4">
                         <h2 class="text-lg font-bold mb-4">Voluntary Contributions</h2>
                         <div class="flex items-center">
@@ -35,9 +35,9 @@ import image from '../assets/images/info.jpg';
                 </div>
             </div>
 
-            <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
-                <div class="absolute inset-0 bg-black opacity-50"></div>
-                <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
+            <div class="bg-cover bg-center  w-4/12 h-80 mr-4 mb-4 md:h-96 md:w-2/4" :style="{ backgroundImage: `url(${image})` }">
+                <div class=" bg-black opacity-50"></div>
+                <div class=" flex flex-col justify-end items-start text-white">
                     <div class="mb-8 ml-4">
                         <h2 class="text-lg font-bold mb-4">Account Maintenance</h2>
                         <div class="flex items-center">
@@ -48,9 +48,9 @@ import image from '../assets/images/info.jpg';
                 </div>
             </div>
 
-            <div class="relative bg-cover bg-center h-[70vh]" :style="{ backgroundImage: `url(${image})` }">
-                <div class="absolute inset-0 bg-black opacity-50"></div>
-                <div class="absolute inset-0 flex flex-col justify-end items-start text-white">
+            <div class="bg-cover bg-center  w-4/12 h-80 mb-4 md:h-96 md:w-2/4" :style="{ backgroundImage: `url(${image})` }">
+                <div class=" bg-black opacity-50"></div>
+                <div class=" flex flex-col justify-end items-start text-white">
                     <div class="mb-8 ml-4">
                         <h2 class="text-lg font-bold mb-1">Price History</h2>
                         <p class="text-xs mt-1 mb-1">
@@ -80,7 +80,7 @@ import image from '../assets/images/info.jpg';
                         <div class="flex items-center">
                             <p class="text-lg font-semibold">Learn More</p>
                             <font-awesome-icon :icon="['fas', 'arrow-right']" class="pl-2" />
-                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
