@@ -3,9 +3,9 @@
       <img src="../assets/images/soliciting.png" class="w-28" />
   
       <div class="ml-8 flex flex-col items-center md:items-baseline">
-        <div class="flex items-center">
+        <div class="flex justify-between items-center w-10/12">
           <h1 class="text-4xl text-blueText font-serif my-4 md:my-0">No Soliciting</h1>
-          <font-awesome-icon :icon="['fas', 'circle-xmark']" class="ml-2 hidden md:block" />
+          <font-awesome-icon :icon="['fas', 'circle-xmark']" class="mt-3 hidden md:block" />
         </div>
   
         <p class="w-96 text-justify mt-4 md:ml-16">
