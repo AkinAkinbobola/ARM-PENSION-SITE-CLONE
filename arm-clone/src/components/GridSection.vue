@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-cream pb-20 flex flex-col md:flex-row">
+  <div class="bg-cream pb-12 flex flex-col md:flex-row md:py-14 md:px-20 p-6">
       <div class="flex">
         <img src="../assets/images/grid/grid1.jpg" class="w-20" alt="Image 1">
         <img src="../assets/images/grid/grid2.jpg" class="w-20" alt="Image 2">
@@ -10,7 +10,7 @@
         </div>
       </div>
 
-      <div class="ml-10 flex flex-col md:w-5/12 mr-10">
+      <div class="md:ml-10 flex flex-col md:w-6/12">
         <h1 class="text-blueText text-4xl font-serif mb-6 font-bold">
           Tomorrow is looking good.
         </h1>
