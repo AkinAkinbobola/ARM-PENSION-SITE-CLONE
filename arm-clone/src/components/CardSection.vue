@@ -4,7 +4,7 @@ import image from '../assets/images/info.jpg';
 
 <template>
     <div class="my-10">
-        <h1 class="text-4xl text-blueText font-serif ml-10 mx-4 md:mx-16 text-center md:text-left">
+        <h1 class="text-4xl text-blueText font-serif md:mx-16 text-center md:text-left mx-10">
             Hi, how may we assist you today?
         </h1>
 
