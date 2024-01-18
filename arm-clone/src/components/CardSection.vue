@@ -4,15 +4,14 @@ import image from '../assets/images/info.jpg';
 
 <template>
     <div class="my-10">
-        <h1 class="text-4xl text-blueText font-serif ml-10 mx-4 md:mx-40 text-center md:text-left">
+        <h1 class="text-4xl text-blueText font-serif ml-10 mx-4 md:mx-16 text-center md:text-left">
             Hi, how may we assist you today?
         </h1>
 
-        <div class="flex flex-wrap mt-4 items-center justify-center md:flex-nowrap mx-4 md:mx-40">
+        <div class="flex flex-wrap mt-4 items-center justify-center md:flex-nowrap mx-4 md:mx-16">
+
             <div class="bg-cover bg-center w-4/12 h-80 mr-4 mb-4 md:h-96 md:w-2/4 flex flex-col justify-end"
                 :style="{ backgroundImage: `url(${image})` }">
-                <div class=" bg-black opacity-50"></div>
-
                 <div class="text-white ml-3 mb-8">
                     <h2 class="text-md font-bold mb-2">Benefit Payment</h2>
                     <div class="flex items-center">
@@ -21,7 +20,6 @@ import image from '../assets/images/info.jpg';
                     </div>
                 </div>
             </div>
-
 
             <div class="bg-cover bg-center w-4/12 h-80 mb-4 md:h-96 md:w-2/4 md:mr-4 flex flex-col justify-end"
                 :style="{ backgroundImage: `url(${image})` }">
