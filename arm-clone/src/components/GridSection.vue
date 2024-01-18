@@ -1,11 +1,11 @@
 <template>
   <div class="bg-cream pb-12 flex flex-col md:flex-row md:py-14 md:px-20 p-6 justify-center">
     <div class="grid grid-cols-3 grid-rows-2 gap-4 mb-6">
-      <img src="../assets/images/grid/grid2.jpg" class="w-56 rounded shadow-md col-span-2 object-cover" alt="Image 2">
-      <img src="../assets/images/grid/grid3.jpg" class="w-48 rounded shadow-md object-cover" alt="Image 3">
-      <img src="../assets/images/grid/grid5.jpg" class="w-48 rounded shadow-md object-cover" alt="Image 5">
-      <img src="../assets/images/grid/grid4.jpg" class="w-56 h-60 object-cover rounded shadow-md" alt="Image 4">
-      <img src="../assets/images/grid/grid1.jpg" class="w-56 h-60 rounded shadow-md object-cover" alt="Image 1">
+      <img src="../assets/images/grid/grid2.jpg" class="w-56 rounded shadow-md col-span-2 object-cover">
+      <img src="../assets/images/grid/grid3.jpg" class="w-48 rounded shadow-md object-cover">
+      <img src="../assets/images/grid/grid5.jpg" class="w-48 rounded shadow-md object-cover">
+      <img src="../assets/images/grid/grid4.jpg" class="w-56 h-60 object-cover rounded shadow-md">
+      <img src="../assets/images/grid/grid1.jpg" class="w-56 h-60 rounded shadow-md object-cover">
     </div>
 
     <div class="md:ml-10 flex flex-col md:w-6/12">
