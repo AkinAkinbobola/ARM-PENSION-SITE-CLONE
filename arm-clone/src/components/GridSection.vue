@@ -10,12 +10,14 @@
         </div>
       </div>
 
-      <div class="ml-10 flex flex-col w-full md:w-5/12 mr-10">
-        <h1 class="text-blueText text-4xl font-serif mb-6 font-bold">Tomorrow is looking good.</h1>
-        <p class="text-lg">Retirement is supposed to be enjoyable and stress-free, so we created our planning
+      <div class="ml-10 flex flex-col md:w-5/12 mr-10">
+        <h1 class="text-blueText text-4xl font-serif mb-6 font-bold">
+          Tomorrow is looking good.
+        </h1>
+        <p class="text-lg text-justify">Retirement is supposed to be enjoyable and stress-free, so we created our planning
           experience to be that way too.
         </p>
-        <p class="text-lg mt-6 mb-6">This isn't a typical retirement planning experience. It's delightful,
+        <p class="text-lg mt-6 mb-6 text-justify">This isn't a typical retirement planning experience. It's delightful,
           research-backed,
           and focuses on what's most important: you.
         </p>
