@@ -19,7 +19,7 @@
         research-backed,
         and focuses on what's most important: you.
       </p>
-      <button class="py-2 px-8 text-white bg-pink-800 ml-0 font-sans rounded w-52">Make it happen</button>
+      <button class="py-2 px-8 text-white bg-pink-800 ml-0 font-sans rounded w-52 shadow-md">Make it happen</button>
     </div>
   </div>
 </template>
